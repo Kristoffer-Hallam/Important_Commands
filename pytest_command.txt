@@ -1,0 +1,3 @@
+Pytest command on terminal
+
+python -m pytest <name_of_file.py>

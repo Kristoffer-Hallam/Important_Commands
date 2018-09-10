@@ -1,0 +1,15 @@
+To install fatiando on a Mac OsX,
+
+check to see if Xcode is fully operational,
+
+then on to install all needed packages, type on the terminal
+
+conda install numpy scipy matplotlib numba ipython basemap pillow mayavi pip future
+
+finally, to install fatiando, type
+
+pip install —upgrade https://github.com/fatiando/fatiando/archive/master.zip
+
+The fatiando directory will be placed under 
+
+/anaconda/lib/python2.7/site-packages/fatiando

@@ -1,0 +1,44 @@
+On how to work with Git and Github:
+
+Once a repo is created, clone it on terminal 
+
+$ git clone https://github.com/username/repo.git
+
+Go to the folder where the repository was cloned and check status
+
+$ git status
+
+This way the terminal will show the branch where you are working on and any changes that
+have been made on the cloned files. To prepare all the files to be committed
+
+$ git add .
+
+or by choosing the files
+
+$ git add filename
+
+After preparing the files, they can be committed by
+
+$ git commit -m 'Write a sentence showing what kind of changes were made on the files'
+
+To send the committed files to the right path in the Github account
+
+$ git push origin name_of_branch
+
+Checking the branch used now
+
+$ git branch
+
+To create a new branch
+
+$ git branch name_of_branch
+
+Changing between branches
+
+$ git checkout name_of_branch_to_go_to
+
+Now you have a new branch with the same files of original_branch and all new changes can
+be done on this branch without prejudice of the original one. All the commands described
+before can be used for these new changes, until the files are pushed to Github. Once you
+feel the changes are good enough, original and created branches can be compared and
+merged.
