@@ -4,13 +4,34 @@ ls -al : shows all invisible files in terminal
 
 nano .bash_profile : to access ".bash_profile" file
 -> uma vez no editor nano, fazer as mudanças e
-salvar usando ctrl+o e enter. para sair ctrl+x
-
+salvar usando ctrl+O e enter. para sair ctrl+X
 
 For more information, natelandau.com/my-mac-osx-bash_profile
+----------------------------------------------------------------
 
+
+To make hidden files visible:
+1. In Finder, open up your Macintosh HD folder
+2. Press Command+Shift+Dot
+3. Your hidden files will become visible. Repeat step 2 to hide them again!
+
+For more information, https://setapp.com/how-to/show-hidden-files-on-mac
 ----------------------------------------------------------------
 
 To open text files on Textwrangler from a terminal type:
 
 open -a TextWrangler.app myfile.txt
+
+PYTHON COMMANDS:
+
+for version check write:
+$ python --version
+
+to list the python packages installed write:
+$ pip list
+
+to know where PYTHON is located
+$ which python
+
+to display all content inside PATH
+$ echo $PATH
